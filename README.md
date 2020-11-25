@@ -39,9 +39,9 @@
 - Manual do setup no readme.md
 - Dockerfile com as definições da imagem que será gerenciada pelo GitActions
 - Garanta que sua aplicação tenha alta disponibilidade (Utilize o PM2 para clusterizar e gerenciar a disponibilidade, ou crie o mesmo comportamento via docker)
-- O token de da aplicação deverá expirar a cada 5 minutos, impedindo o usuario de comunicar com os endpoints utilizando o token expirado, a chave de critpografia utilizada na geração do token, também deverá mudar concomitantemente.
+- O token da aplicação deverá expirar a cada 5 minutos, impedindo o usuario de comunicar com os endpoints utilizando o token expirado, a chave de critpografia utilizada na geração dos tokens, também deverá mudar concomitantemente.
 - Isole os dados sensiveis em um arquivo de variavel de ambiente, e consuma na aplicação.
-- Garanta que sua aplicação seja segura
+- Garanta que sua aplicação seja segura, se debruçando em recursos e pacotes disponíveis. 
 
 ### **Ganha + pontos se conter**
 
