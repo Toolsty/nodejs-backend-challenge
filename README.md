@@ -2,12 +2,12 @@
 
 ## Criar uma API de Pokemons com autenticação e rotas protegidas
 
-1 - Criar uma API com suporte a criação, edição, exclusão e leitura, usando a seguinte
+ - Criar uma API com suporte a criação, edição, exclusão e leitura, usando a seguinte
 [API de referencia](https://pokeapi.co/)
-2 - A autenticação deve ser [JWT](https://jwt.io/)
-3 - Deve-se utilizar docker para automatização de CI/CD
-4 - Usar o GitActions para subir uma nova imagem no docker registry (sugerimos o DockerHub, mas sinta-se avontade para usar outros gateways), sempre que um commit for empurrado para a branch MAIN na origin. A implantação deve apenas acontecer mediante a aprovação de PR's que serão abertos a partir da branch de desenvolvimento. 
-5 - Testes unitários não são obrigatórios mas serão tratados como um diferencial (E que diferencial!)
+ - A autenticação deve ser [JWT](https://jwt.io/)
+ - Deve-se utilizar Docker para virtualização
+ - Criar automatização de CI/CD (Sugestão: Usar o GitActions para subir uma nova imagem no docker registry (sugerimos o DockerHub, mas sinta-se avontade para usar outros gateways), sempre que um commit for empurrado para a branch MAIN na origin. A implantação deve apenas acontecer mediante a aprovação de PR's que serão abertos a partir da branch de desenvolvimento.)  
+ - Testes unitários não são obrigatórios mas serão tratados como um diferencial (E que diferencial!)
  
 ## O que será avaliado:
 
